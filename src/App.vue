@@ -1,26 +1,55 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <!-- <VenueNavBarComponent></VenueNavBarComponent> -->
+    <router-view/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import VenueNavBarComponent from "@/components/VenueNavBarComponent.vue";
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  // components: {
+  //   VenueNavBarComponent,
+  // },
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+/* Add your scoped styles here if needed */
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <template>
+  <div id="app">
+    <router-view/>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'app',
+  data() {
+    return {
+
+    }
+  },
+}
+</script>
+
+<style scoped>
+</style> -->
